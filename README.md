@@ -17,7 +17,7 @@ This Address Book allows adding and searching for contacts through the CLI.
 
 ## 🐼: Walk through the application
 
-# Make Sure your PostgreSQL server is running and the values of connection string in `.env` file are correct.
+### Make Sure your PostgreSQL server is running and the values of connection string in `.env` file are correct.
 1. Run the program `go run main.go`
 2. After successfully running the program, you will see a CLI which mainly has 2 commands.
 3. `addcontact` and `searchcontact`.
