@@ -30,6 +30,16 @@ This Address Book allows adding and searching for contacts through the CLI.
 1. Created indexing on first_name, last_name and phone_number colummns in PostgreSQL which increases the speed of searching in the data. Also, For more advancement we can implement elasticsearch along with PostgreSQL for searching.
 2. Built the application by following design patterns.   
 
+## Image
+### Main
+![](https://github.com/wanton-idol/CLI-Address-Book/blob/main/images/main.png)
+
+### addcontact
+![](https://github.com/wanton-idol/CLI-Address-Book/blob/main/images/addcontact.png)
+
+### searchcontact
+![](https://github.com/wanton-idol/CLI-Address-Book/blob/main/images/searchcontact.png)
+
 ## Author   
 
 #### :wave: [Nishchal Gupta](https://www.linkedin.com/in/itsnishchal/)
