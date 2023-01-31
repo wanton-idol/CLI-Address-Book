@@ -27,8 +27,7 @@ This Address Book allows adding and searching for contacts through the CLI.
 
 ## 🐼: Background working of application
 
-1. Created indexing on first_name, last_name and phone_number colummns in PostgreSQL which increases the speed of searching in the data. Also, For more advancement we can implement elasticsearch along with PostgreSQL for searching.
-2. Built the application by following design patterns.   
+1. Created indexing on first_name, last_name and phone_number colummns in PostgreSQL which increases the speed of searching in the data. Also, For more advancement we can implement elasticsearch along with PostgreSQL for searching. 
 
 ## Image
 ### Main
