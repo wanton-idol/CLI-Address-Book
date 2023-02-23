@@ -7,22 +7,6 @@ import (
 	repo "github.com/wanton-idol/cli-address-book/repository"
 )
 
-// type Repository interface {
-// 	InsertContactRepo(contact en.Contact) error
-// 	SearchContactBasedOnNameRepo(name string) ([]en.Contact, error)
-// 	SearchContactBasedOnPhoneRepo(phoneNumber int) (en.Contact, error)
-// }
-
-// type Usecase struct {
-// 	repo Repository
-// }
-
-// func NewUsecase(Repository Repository) *Usecase {
-// 	return &Usecase{
-// 		repo: Repository,
-// 	}
-// }
-
 func InsertContactUC(contact en.Contact) error {
 	err := repo.InsertContactRepo(contact)
 	if err != nil {
