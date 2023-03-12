@@ -11,7 +11,7 @@ This Address Book allows adding and searching for contacts through the CLI.
 ## Application Requirement
 
 1. Golang https://golang.org/dl/
-2. Cobra library for CLI `go install github.com/spf13/cobra-cli@latestx`
+2. Cobra library for CLI `go install github.com/spf13/cobra-cli@latest`
 3. PostgreSQL library to connect with PostgreSQL `go get github.com/lib/pq`
 4. github.com/joho/godotenv to access the environment variable.
 
